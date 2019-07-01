@@ -1,4 +1,4 @@
-# Google翻译API
+# 本地运行Google翻译接口
 
 只是一个简单demo
 
@@ -8,11 +8,12 @@
 npm install
 ```
 
-启动项目，会在本地3000端口启动一个http服务
+## 启动项目
+会在本地3000端口启动一个http服务
 ```
 node index.js
 ```
-
+## 使用
 在浏览器访问翻译接口，例如：
 ```
 http://localhost:3000?text=hello world&to=cn
